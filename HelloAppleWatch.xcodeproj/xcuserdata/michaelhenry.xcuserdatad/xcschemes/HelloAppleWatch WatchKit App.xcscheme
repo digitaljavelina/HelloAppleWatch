@@ -14,23 +14,37 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "99AEA8F71B4DCC22004F59EA"
-               BuildableName = "HelloAppleWatch.app"
-               BlueprintName = "HelloAppleWatch"
+               BlueprintIdentifier = "99AEA92A1B4DCCB5004F59EA"
+               BuildableName = "HelloAppleWatch WatchKit App.app"
+               BlueprintName = "HelloAppleWatch WatchKit App"
                ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "99AEA90C1B4DCC22004F59EA"
-               BuildableName = "HelloAppleWatchTests.xctest"
-               BlueprintName = "HelloAppleWatchTests"
+               BlueprintIdentifier = "99AEA9201B4DCCB5004F59EA"
+               BuildableName = "HelloAppleWatch WatchKit Extension.appex"
+               BlueprintName = "HelloAppleWatch WatchKit Extension"
+               ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "99AEA8F71B4DCC22004F59EA"
+               BuildableName = "HelloAppleWatch.app"
+               BlueprintName = "HelloAppleWatch"
                ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "99AEA90C1B4DCC22004F59EA"
-               BuildableName = "HelloAppleWatchTests.xctest"
-               BlueprintName = "HelloAppleWatchTests"
-               ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99AEA8F71B4DCC22004F59EA"
-            BuildableName = "HelloAppleWatch.app"
-            BlueprintName = "HelloAppleWatch"
+            BlueprintIdentifier = "99AEA92A1B4DCCB5004F59EA"
+            BuildableName = "HelloAppleWatch WatchKit App.app"
+            BlueprintName = "HelloAppleWatch WatchKit App"
             ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/HelloAppleWatch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99AEA8F71B4DCC22004F59EA"
-            BuildableName = "HelloAppleWatch.app"
-            BlueprintName = "HelloAppleWatch"
+            BlueprintIdentifier = "99AEA92A1B4DCCB5004F59EA"
+            BuildableName = "HelloAppleWatch WatchKit App.app"
+            BlueprintName = "HelloAppleWatch WatchKit App"
             ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "99AEA92A1B4DCCB5004F59EA"
+            BuildableName = "HelloAppleWatch WatchKit App.app"
+            BlueprintName = "HelloAppleWatch WatchKit App"
+            ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/HelloAppleWatch">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "99AEA8F71B4DCC22004F59EA"
-            BuildableName = "HelloAppleWatch.app"
-            BlueprintName = "HelloAppleWatch"
+            BlueprintIdentifier = "99AEA92A1B4DCCB5004F59EA"
+            BuildableName = "HelloAppleWatch WatchKit App.app"
+            BlueprintName = "HelloAppleWatch WatchKit App"
             ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "99AEA92A1B4DCCB5004F59EA"
+            BuildableName = "HelloAppleWatch WatchKit App.app"
+            BlueprintName = "HelloAppleWatch WatchKit App"
+            ReferencedContainer = "container:HelloAppleWatch.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
